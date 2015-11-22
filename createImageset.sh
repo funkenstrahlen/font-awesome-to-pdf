@@ -40,13 +40,12 @@ function generateColorset() {
 sizes=(25 44)
 for size in "${sizes[@]}"
 do
-	#generateColorset "black-$size" "#000000" $size
-	#generateColorset "white-$size" "#FFFFFF" $size
-	#generateColorset "corn-$size" "#EEC100" $size
-	#generateColorset "brandeis-blue-$size" "#0370E9" $size
-	#generateColorset "steel-$size" "#686868" $size
+	generateColorset "black-$size" "#000000" $size
+	generateColorset "white-$size" "#FFFFFF" $size
+	generateColorset "corn-$size" "#EEC100" $size
+	generateColorset "brandeis-blue-$size" "#0370E9" $size
+	generateColorset "steel-$size" "#686868" $size
 	generateColorset "tangelo-$size" "#F94710" $size
-    
 done
 
 
